@@ -1,0 +1,4 @@
+<section class="tree-section">
+  <h2>Выберите данные</h2>
+  <p-tree selectionMode="single" [value]="trees" (onNodeSelect)="globalData.setId($event)"  [(selection)]="selectedFile"></p-tree>
+</section>
